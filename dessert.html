@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customize Your Dessert</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    section.dessert-item {
+      padding: 40px 20px;
+      background-color: #fffafc;
+    }
+
+    section.dessert-item h2 {
+      text-align: center;
+      font-size: 36px;
+      color: #d63384;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 2px solid #ff99c8;
+      border-radius: 15px;
+      padding: 20px;
+      width: 300px;
+      margin: 20px auto;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #c2185b;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin: 5px 0;
+    }
+
+    .custom-form {
+      background-color: #fff;
+      border: 2px solid #ffd6e7;
+      padding: 25px;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-form h3 {
+      color: #8e24aa;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .custom-form label {
+      display: block;
+      margin-bottom: 12px;
+      color: #444;
+    }
+
+    .custom-form select,
+    .custom-form textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    fieldset {
+      border: 1px solid #ccc;
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    fieldset legend {
+      font-weight: bold;
+      color: #6a1b9a;
+    }
+
+    fieldset label {
+      display: block;
+      margin: 5px 0;
+    }
+
+    .custom-form button {
+      background-color: #d63384;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+      display: block;
+      width: 100%;
+    }
+
+    .custom-form button:hover {
+      background-color: #b0256c;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="dessert-item" id="custom-dessert">
+    <h2>🍫 Choco Lava Cake</h2>
+
+    <div class="card">
+      <img src="./Chocolate Lava Cake.jpg" alt="Choco Lava Cake">
+      <h3>Choco Lava Cake</h3>
+      <p><strong>Ingredients:</strong> Molten chocolate, cocoa sponge, vanilla extract</p>
+      <p><strong>Price:</strong> ₹180</p>
+    </div>
+
+    <div class="card">
+      <img src="./Red Velvet Waffle.jpg " alt="Red Velvet Waffle">
+      <h3>Red Velvet Waffle</h3>
+      <p><strong>Ingredients:</strong> Red velvet batter, white choco chips, whipped cream</p>
+      <p><strong>Price:</strong> ₹190</p>
+    </div>
+
+    <form class="custom-form">
+      <h3>Customize Your Dessert</h3>
+
+      <label>Dessert Type:
+        <select>
+          <option selected>Choco Lava Cake</option>
+          <option>Waffle</option>
+          <option>Pastry</option>
+          <option>Brownie</option>
+        </select>
+      </label>
+
+      <label>Base Type:
+        <select>
+          <option>Chocolate Cake</option>
+          <option>Cookie Base</option>
+          <option>Brownie Base</option>
+          <option>Waffle Base</option>
+        </select>
+      </label>
+
+      <label>Flavour:
+        <select>
+          <option>Chocolate</option>
+          <option>Red Velvet</option>
+          <option>Blueberry</option>
+          <option>Mango</option>
+        </select>
+      </label>
+
+      <label>Sweetness Level:
+        <select>
+          <option>Low</option>
+          <option selected>Medium</option>
+          <option>High</option>
+          <option>Extra Sweet</option>
+        </select>
+      </label>
+
+      <label>Temperature:
+        <select>
+          <option>Hot</option>
+          <option>Warm</option>
+          <option selected>Room Temperature</option>
+          <option>Cold</option>
+        </select>
+      </label>
+
+      <label>Quantity:
+        <select>
+          <option>1 piece</option>
+          <option>2 pieces</option>
+          <option>3 pieces</option>
+        </select>
+      </label>
+
+      <label>With Ice Cream:
+        <select>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </label>
+
+      <label>Ice Cream Flavour:
+        <select>
+          <option>Vanilla</option>
+          <option>Chocolate</option>
+          <option>Butterscotch</option>
+          <option>Strawberry</option>
+        </select>
+      </label>
+
+      <label>Syrup:
+        <select>
+          <option>Chocolate</option>
+          <option>Caramel</option>
+          <option>Honey</option>
+          <option>Strawberry</option>
+        </select>
+      </label>
+
+      <fieldset>
+        <legend>Extra Toppings:</legend>
+        <label><input type="checkbox"> Choco Chips</label>
+        <label><input type="checkbox"> Nuts</label>
+        <label><input type="checkbox"> Sprinkles</label>
+        <label><input type="checkbox"> Whipped Cream</label>
+        <label><input type="checkbox"> Marshmallows</label>
+      </fieldset>
+
+      <label>Special Instructions:
+        <textarea rows="3" placeholder="e.g. Extra fudge, no nuts..."></textarea>
+      </label>
+
+      <button type="submit">Add to Cart</button>
+    </form>
+  </section>
+
+</body>
+</html>
+</body>
+</html>
