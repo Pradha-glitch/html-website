@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Today's Special - Frosty Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff2f7;
+      color: #333;
+    }
+
+    header {
+      background:#ff4da6;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    main {
+      padding: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    h3 {
+      margin: 10px 0;
+      color: #d23f57;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ffe0eb;
+      color: #555;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🍨Hot Moving ice Cream items</h1>
+    <p>grab your scoop today!</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <img src="./Blueberry Bliss.jpg" alt="Blueberry Bliss">
+      <h3>Blueberry Bliss</h3>
+      <p><strong>Price:</strong> ₹120</p>
+      <p><strong>Ingredients:</strong> Blueberries, vanilla cream, sugar</p>
+    </div>
+
+    <div class="card">
+      <img src="./Strawberry Sundae.jpg" alt="Strawberry Sundae">
+      <h3>Strawberry Sundae</h3>
+      <p><strong>Price:</strong> ₹130</p>
+      <p><strong>Ingredients:</strong> Strawberry syrup, vanilla ice cream, nuts</p>
+    </div>
+
+    <div class="card">
+      <img src="./Choco Lush.jpg" alt="Choco Lush">
+      <h3>Choco Lush</h3>
+      <p><strong>Price:</strong> ₹150</p>
+      <p><strong>Ingredients:</strong> Dark chocolate, fudge, sprinkles</p>
+    </div>
+
+    <div class="card">
+      <img src="./Mango Delight (2).jpg" alt="Mango Delight">
+      <h3>Mango Delight</h3>
+      <p><strong>Price:</strong> ₹110</p>
+      <p><strong>Ingredients:</strong> Fresh mango chunks, mango syrup, cream</p>
+    </div>
+
+    <div class="card">
+      <img src="./Pistachio Magic.jpg" alt="Pistachio Magic">
+      <h3>Pistachio Magic</h3>
+      <p><strong>Price:</strong> ₹140</p>
+      <p><strong>Ingredients:</strong> Pistachios, cream base, nutty crunch</p>
+    </div>
+
+    <div class="card">
+      <img src="./Raspberry Swirl.jpg" alt="Raspberry Swirl">
+      <h3>Raspberry Swirl</h3>
+      <p><strong>Price:</strong> ₹130</p>
+      <p><strong>Ingredients:</strong> Fresh raspberries, vanilla ice cream, cream</p>
+    </div>
+  </main>
+
+  <footer>
+    ©️ 2025 Frosty Bliss. Special treats made with love 🍧
+  </footer>
+
+</body>
+
+</html>

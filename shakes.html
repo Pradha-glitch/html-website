@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customize Your Shake</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #fff0f5, #e1f5fe);
+      color: #333;
+      padding: 40px 15px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #d63384;
+      font-size: 2.8em;
+      margin-bottom: 40px;
+    }
+
+    .shake-customization {
+      max-width: 950px;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      background-color: #fce4ec;
+      border-radius: 20px;
+      padding: 25px;
+      margin-bottom: 40px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .card img {
+      width: 270px;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card div {
+      max-width: 400px;
+    }
+
+    .card h3 {
+      color: #9c27b0;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1em;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .custom-form {
+      background-color: #fff3f7;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    }
+
+    .custom-form h3 {
+      text-align: center;
+      color: #d81b60;
+      font-size: 1.8em;
+      margin-bottom: 25px;
+    }
+
+    .custom-form label {
+      display: block;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #8e24aa;
+    }
+
+    .custom-form select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ce93d8;
+      font-size: 1em;
+      margin-top: 5px;
+      background-color: #ffffff;
+    }
+
+    .custom-form button {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 30px;
+      font-size: 1em;
+      background-color: #d81b60;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .custom-form button:hover {
+      background-color: #ad1457;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="shake-customization">
+    <h2>🥤 Ice Cream Shakes</h2>
+
+    <div class="card">
+      <img src="https://www.sharmispassions.com/wp-content/uploads/2012/07/chocolate-milkshake5.jpg" alt="Chocolate Shake">
+      <div>
+        <h3>Chocolate Shake</h3>
+        <p><strong>Ingredients:</strong> Chocolate ice cream, milk, whipped cream, choco chips</p>
+        <p><strong>Price:</strong> ₹150</p>
+      </div>
+    </div>
+
+    <form class="custom-form">
+      <h3>Customize Your Shake</h3>
+
+      <label>Shake Flavor:
+        <select>
+          <option>Chocolate</option>
+          <option>Strawberry</option>
+          <option>Vanilla</option>
+          <option>Mango</option>
+          <option>Oreo</option>
+          <option>Butterscotch</option>
+        </select>
+      </label>
+
+      <label>Size:
+        <select>
+          <option>Small (250ml)</option>
+          <option>Medium (400ml)</option>
+          <option>Large (500ml)</option>
+        </select>
+      </label>
+
+      <label>Milk Type:
+        <select>
+          <option>Full Cream</option>
+          <option>Toned Milk</option>
+          <option>Almond Milk</option>
+          <option>Soy Milk</option>
+        </select>
+      </label>
+
+      <label>Sweetness Level:
+        <select>
+          <option>Regular</option>
+          <option>Less Sugar</option>
+          <option>No Sugar</option>
+        </select>
+      </label>
+
+      <label>Extra Toppings:
+        <select>
+          <option>Whipped Cream</option>
+          <option>Oreo Crumbs</option>
+          <option>Chocolate Chips</option>
+          <option>Choco Syrup</option>
+          <option>None</option>
+        </select>
+      </label>
+
+      <button type="submit">Add to Cart</button>
+    </form>
+  </section>
+
+</body>
+</html>

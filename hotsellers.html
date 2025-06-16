@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delicious Ice Creams</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #e6f7ff);
+      color: #333;
+    }
+
+    .flavor-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .flavor-section h2 {
+      font-size: 2.5em;
+      color: #d63384;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 2px solid #ffcce6;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #ab218e;
+      margin-bottom: 10px;
+      font-size: 1.4em;
+    }
+
+    .card p {
+      margin: 6px 0;
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="flavor-section">
+    <h2>🍧 Unique Flavors</h2>
+    <div class="card-container">
+
+      <div class="card">
+        <img src="https://recipesbyclare.com/assets/images/1737383140907-5w3eqalm.webp" alt="Blueberry Cheesecake">
+        <h3>Blueberry Cheesecake</h3>
+        <p>Rs. 180</p>
+        <p>Ingredients: Blueberries, cream cheese, vanilla base</p>
+      </div>
+
+      <div class="card">
+        <img src="./Tutti frutti.jpg" alt="Tutti Frutti">
+        <h3>Tutti Frutti</h3>
+        <p>Rs. 140</p>
+        <p>Ingredients: Candied fruits, milk cream, jelly bites</p>
+      </div>
+
+      <div class="card">
+        <img src="https://recipessmile.com/wp-content/uploads/2024/08/Caramel-Crunch-Cake-225x225.png" alt="Caramel Crunch">
+        <h3>Caramel Crunch</h3>
+        <p>Rs. 170</p>
+        <p>Ingredients: Caramel swirls, crunchy bites, cream</p>
+      </div>
+
+      <div class="card">
+        <img src="./Meetha Paan.jpg" alt="Meetha Paan">
+        <h3>Meetha Paan</h3>
+        <p>Rs. 160</p>
+        <p>Ingredients: Betel leaf extract, gulkand, fennel seeds</p>
+      </div>
+
+      <div class="card">
+        <img src="./Red Velvet Ice Cream.jpg" alt="Red Velvet">
+        <h3>Red Velvet</h3>
+        <p>Rs. 190</p>
+        <p>Ingredients: Red velvet cake, cream cheese swirl</p>
+      </div>
+
+      <div class="card">
+        <img src="./Pineapple Twist.jpg" alt="Pineapple Twist">
+        <h3>Pineapple Twist</h3>
+        <p>Rs. 150</p>
+        <p>Ingredients: Pineapple pulp, vanilla blend, tangy syrup</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Special Offers - Frosty Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fef6f9;
+      color: #333;
+    }
+
+    header {
+      background:#ff4da6;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    main {
+      padding: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .offer-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .offer-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .offer-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .offer-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .offer-title {
+      margin: 15px 0 10px;
+      color: #d23f57;
+    }
+
+    .offer-valid {
+      color: #888;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ffe0eb;
+      color: #555;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎉 Special Offers 🎉</h1>
+    <p>Enjoy our exciting deals – only for a limited time!</p>
+  </header>
+
+  <main>
+    <div class="offer-card">
+      <img src="https://www.shutterstock.com/image-vector/buy-1-get-free-sale-600nw-2504061537.jpg" alt="Buy 1 Get 1 Free">
+      <h3 class="offer-title">Buy 1 Get 1 Free</h3>
+      <p>On all classic scoops every Monday 🍦</p>
+      <p class="offer-valid">Valid: Every Monday</p>
+    </div>
+
+    <div class="offer-card">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/013/755/713/small_2x/199-indian-rupee-currency-image-199-rupee-symbol-bold-text-illustration-vector.jpg" alt="Combo Delight">
+      <h3 class="offer-title">Combo Delight</h3>
+      <p>1 Sundae + 1 Shake just ₹199 🍧🥤</p>
+      <p class="offer-valid">Valid: All Week (2 PM - 6 PM)</p>
+    </div>
+
+    <div class="offer-card">
+      <img src="https://t4.ftcdn.net/jpg/08/40/54/93/360_F_840549329_IXWqGc3Htf2B2GWmk8EOR0KeGIf7E2Nc.jpg" alt="Festival Treat">
+      <h3 class="offer-title">Festival Treat</h3>
+      <p>Flat 20% off on orders above ₹300 🎊</p>
+      <p class="offer-valid">Use Code: FEST20</p>
+    </div>
+
+    <div class="offer-card">
+      <img src="https://img.freepik.com/premium-vector/happy-hour-neon-sign-design-template_77399-139.jpg" alt="Happy Hour Scoop">
+      <h3 class="offer-title">Happy Hour Scoop</h3>
+      <p>Get 30% off between 4–5 PM daily! 🕓</p>
+      <p class="offer-valid">Valid: Daily 4–5 PM</p>
+    </div>
+
+    <div class="offer-card">
+      <img src="https://img.freepik.com/free-vector/birthday-sale-promotion-banner-template_1017-31301.jpg" alt="Birthday Special">
+      <h3 class="offer-title">Birthday Special</h3>
+      <p>Free scoop on your birthday with ID 🎂</p>
+      <p class="offer-valid">Valid: On your Birthday</p>
+    </div>
+
+    <div class="offer-card">
+      <img src="./bonus card.jpg" alt="Gift Card Bonus">
+      <h3 class="offer-title">Gift Card Bonus</h3>
+      <p>Get ₹50 extra on ₹500 gift card 🎁</p>
+      <p class="offer-valid">Valid: Until June 30</p>
+    </div>
+
+  </main>
+
+  <footer>
+    ©️ 2025 Frosty Bliss | Sweet deals, sweeter memories 🍨
+  </footer>
+
+</body>
+</html>
